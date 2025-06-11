@@ -10,7 +10,7 @@
 - 📝 **Review & Rating**: Pengguna bisa menulis ulasan dan memberi rating
 - 📸 **Upload Foto Tempat Makan**
 - 👥 **Autentikasi Pengguna**: Login dan registrasi
-- 🗺️ **Peta Lokasi** (integrasi Google Maps opsional)
+- 🗺️ **Peta Lokasi** 
 - 📂 **Dashboard Admin**: Kelola data tempat, review, dan pengguna
 - 📱 **Desain Responsive**: Nyaman digunakan di desktop dan mobile
 
@@ -22,15 +22,10 @@
 - **Blade** Template Engine
 - **MySQL** / SQLite Database
 - **Bootstrap** / TailwindCSS (untuk tampilan)
-- **Google Maps API** *(opsional untuk lokasi)*
+- **Google Maps API** 
 
 ---
 
-## 📷 Cuplikan Tampilan
-
-> *(Kamu bisa menambahkan tangkapan layar di sini untuk memperlihatkan antarmuka aplikasi)*
-
----
 
 ## 🚀 Cara Menjalankan (Local)
 
@@ -43,3 +38,4 @@ php artisan key:generate
 # Atur konfigurasi DB di .env
 php artisan migrate
 php artisan serve
+npm run dev
